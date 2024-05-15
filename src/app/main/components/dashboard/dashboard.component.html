@@ -1,1 +1,13 @@
-<p>dashboard works!</p>
+<div class="main-content">
+    <div class="page-content">
+        <div class="tabbed">
+            <input type="radio" id="tab1" name="css-tabs" checked="checked">
+            <input type="radio" id="tab2" name="css-tabs" >
+            <input type="radio" id="tab3" name="css-tabs" >
+            
+            <ul class="tabs">
+                <li class="tab" [routerLink]="['Summary']" routerLinkActive="active"><label for="tab1" >Summary</label></li>
+                <li class="tab" [routerLink]="['Appointments']" routerLinkActive="active"><label for="tab2" >Appointments</label></li>
+                <li class="tab" [routerLink]="['Customers']" routerLinkActive="active"><label for="tab3" >Customers</label></li>        
+            </ul>
+            

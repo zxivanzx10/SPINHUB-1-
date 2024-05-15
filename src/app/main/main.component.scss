@@ -7,11 +7,19 @@ body {
 /* HEADER */
 .header {
     position: fixed;
-    background-color:#161A23;
+    background-color: var(--primary-color);
     height: 70px;
     width: 100%;
     border-bottom: 2px solid var(--border-color);
-    margin-left: 220px;
+    margin-left: 70px; // FOR RESPONSIVE
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:var(--main-green);
+    z-index: 2;
 }
 
 
@@ -33,7 +41,7 @@ body {
 .username h2 {
     font-size: small;
     color: white;
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 .logo-title {
